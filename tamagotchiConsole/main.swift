@@ -7,5 +7,22 @@
 
 import Foundation
 
-print("Hello, World!")
+let adibaldTamagotchi = Tamagotchi(name: "Adibald Timbly")
+
+print(adibaldTamagotchi.happy)
+
+adibaldTamagotchi.eatSnack()
+print(adibaldTamagotchi.happy)
+print(adibaldTamagotchi.weight)
+
+adibaldTamagotchi.poo()
+print(adibaldTamagotchi.weight)
+print(adibaldTamagotchi.hungry)
+
+adibaldTamagotchi.play()
+print(adibaldTamagotchi.happy)
+print(adibaldTamagotchi.hungry)
+
+adibaldTamagotchi.die()
+print(adibaldTamagotchi.alive)
 
